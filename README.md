@@ -1,7 +1,10 @@
 # CLI-todo
+
 CLI Based todo-app with features such as create, read and marking done. And calling the application using a batch file.
 
-### Create Create symbolic link to the executable file
+**Steps to Run the File**
+
+### Create symbolic link to the executable file
 
 #### On Windows
 
@@ -19,11 +22,12 @@ To create a symbolic link on Windows, you'll need to run either the Windows Comm
 > cmd /c mklink todo todo.bat 
 ```
 
-## Specification
+## Specifications
 
-The app can be run in the console with `./todo`.
+The app can be run in the console with `./todo` from the specific directory.
 
 ## Usage
+
 ```
 $ ./todo help
 Usage :-
@@ -34,3 +38,7 @@ $ ./todo done NUMBER      # Complete a todo
 $ ./todo help             # Show usage
 $ ./todo report           # Statistics
 ```
+
+
+
+### Feel like improving the readme? Do a PR or create an issue.
